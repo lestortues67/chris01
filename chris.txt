@@ -1,0 +1,12 @@
+Après avoir crée le nouveau repo dans github se placer sur le PC local. 
+Se déplacer vers le parent du futur dossier
+Ouvrir « git bash here » et saisir : git clone url du repository dans github
+Le nouveau dossier (une copie du repo distant) est crée
+Se déplacer dans le nouveau dossier : cd nouveau dossier
+Dans la cmd de « git bash here » saisir : git init
+Copier ou créer dans le dossier un fichier de texte : chris.txt
+Dans la cmd de « git bash here » saisir : git branch -M main 
+(renommer la branche master en main)
+Dans la cmd de « git bash here » saisir : git add chris.txt
+Dans la cmd de « git bash here » saisir : git commit -m « msg » 
+Dans la cmd de « git bash here » saisir : git push -u origin main 
